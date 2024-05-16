@@ -1,0 +1,300 @@
+.box {
+    visibility: hidden;
+}
+
+* {
+    margin: 0;
+}
+
+#header1 {
+    font-family: jost;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(163, 244, 255);
+    font-size: 7rem;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.2))
+
+}
+
+H1, p {
+    font-family: josefin sans
+    
+}
+
+body {
+    background-color: rgb(196, 228, 255);
+}
+
+.links {
+    display: inline;
+    top: 25vh;
+    position: relative;
+    background-color: rgb(225, 241, 255);
+    border-radius: 15px;
+    padding: 15px;
+    left: 10vh;
+    font-size: 3rem;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.2))
+
+}
+
+.divhead {
+    padding: 90px;
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(0, 58, 146), rgb(196, 228, 255));
+}
+
+.links {
+    font-family: montserrat;
+}
+
+.ch {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 4vh;
+    left: 0;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.2))
+}
+
+.abajo {
+    background-image: linear-gradient(rgb(196, 228, 255), rgb(0, 58, 146));
+    color: rgb(196, 236, 255);
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0px 0px 0px;
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+body {
+    position:  relative;
+    min-height: 100vh;
+}
+
+.nombres {
+    display: inline;
+}
+
+.boxf {
+    position: relative;
+    visibility: hidden;
+}
+
+.nombes {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 50%; /* Posicionamiento vertical centrado */
+    left: 50%; /* Posicionamiento horizontal centrado */
+    transform: translate(-50%, -50%); /* Ajuste para centrado */
+    stroke: aqua;
+    size: 200px;
+    font-size: 5vh;
+    font-family: Jost, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.nombres {
+    font-family: Jost, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    bottom: 0;
+    font-size: 2rem;
+    color: rgb(196, 236, 255);
+    padding: 6px;
+}
+
+#curso {
+    right: 0;
+    position: absolute;
+}
+
+@media (max-width:1795px) {
+        .links {
+            font-size: 2.8rem;
+        }
+}
+
+@media (max-width:1695px) {
+    .links {
+        font-size: 2.6rem;
+    }
+
+    .nombres {
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media (max-width:1595px) {
+    .links {
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width:1495px) {
+    .links {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width:1395px) {
+    .links {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:1295px) {
+    .links {
+        font-size: 1.8rem;
+    }
+
+    .nombres {
+        font-size: 1.1rem;
+    }
+
+    .ch {
+        height: 100px;
+        width: 100px;
+    }
+
+    #curso {
+        bottom: 0px;
+        font-size: 1.6rem;
+         position: absolute;
+         right: 0;
+    }
+}
+
+@media (max-width:1195px) {
+    .links {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width:1095px) {
+    .links {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width:995px) {
+    .links {
+        font-size: 1.2rem;
+    }
+
+    .ch {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media (max-width:895px) {
+    .links {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:795px) {
+    
+}
+
+@media (max-width:695px) {
+    .links {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width:595px) {
+    .links {
+        display: flex;
+        top: 1vh ;
+        font-size: 20px;
+        margin: 20px;
+        flex-direction: column;
+        left: 0;
+    }
+}
+
+@media (max-width:468px) {
+    .links {
+        display: flex;
+        
+    }
+
+    #nombres
+    { 
+        font-size: 0.8rem;
+    }
+
+    #curso{
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-height:780px) {
+    .links{
+        top: 0;
+    }
+
+}
+
+@media (max-height:805px) {
+    .abajo {
+        position: fixed;
+    }
+
+    #curso {
+        padding: 6px;
+        font-size: 17px;
+    }
+}
+
+
+@media (max-width:520px) {
+    .nombres
+    {
+        font-size: 1.04rem;
+    }
+}
+
+@media (max-width:420px) {
+    .divhead {
+        position: fixed;
+        justify-content: center;
+        right: 0;
+        left: 0;
+        margin: 0;
+    }
+
+
+
+
+    .box {
+        height: 50vh;
+    }
+
+    #header1 {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width:300px) {
+    #header1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:380px) {
+    #nombres {
+        font-size: 0.72rem;
+    }
+
+    #curso {
+        font-size: 1.8rem;
+    }
+}
